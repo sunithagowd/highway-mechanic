@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="info.androidhive.locationapi.ListViewCheckboxes"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/view_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="6dip" >
+
+   <!--  <TextView
+        android:id="@+id/code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkBox1"
+        android:layout_alignStart="@+id/checkBox1"
+        android:text="@string/TextView" />-->
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_alignParentRight="true" 
+       android:layout_alignParentEnd="true" 
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentStart="true"  
+       android:layout_centerVertical="true"
+       android:layout_marginRight="18dp"
+       android:layout_marginEnd="18dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text="@string/CheckBox" />
+ 
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/view_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+ 
+    <TextView android:layout_width="fill_parent"
+    android:layout_height="wrap_content" android:padding="10dp"
+    android:textColor="@color/black"
+    android:text="@string/some_text" android:textSize="20sp" />
+ 
+ 
+    <Button
+        android:id="@+id/findSelected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/Find_Some_Selected" />
+ 
+ <ListView 
+     android:id="@+id/listView1"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent" />
+ 
+</LinearLayout>
